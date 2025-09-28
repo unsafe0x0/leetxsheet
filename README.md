@@ -18,16 +18,6 @@ A dashboard for managing LeetCode problem sheets with the following core idea:
   - Format: `[{ "name": "Sheet Name", "file": "filename.json" }]`
 - **Questions**: `public/data/questions/<filename>.json`
   - Each file contains an array of questions:
-    ```json
-    [
-      {
-        "id": 1,
-        "title": "Two Sum",
-        "difficulty": "Easy",
-        "url": "https://leetcode.com/problems/two-sum/"
-      }
-    ]
-    ```
 
 # Contributing
 

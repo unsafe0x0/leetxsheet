@@ -35,7 +35,7 @@ const HighlightCard = ({
       </div>
 
       <div
-        className={`ml-4 shrink-0 rounded-full p-2 flex items-center justify-center"
+        className={`ml-4 shrink-0 flex items-center justify-center"
         }`}
         aria-hidden="true"
       >

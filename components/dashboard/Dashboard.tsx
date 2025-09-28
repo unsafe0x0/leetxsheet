@@ -88,25 +88,25 @@ const Dashboard = () => {
           title="Total Solved"
           description={`Total problems solved`}
           value={`${solvedCount} / ${totalCount}`}
-          icon={<FaCheckCircle className="w-7 h-7 text-blue-400" />}
+          icon={<FaCheckCircle className="w-4 h-4 text-blue-400" />}
         />
         <HighlightCard
           title="Easy Solved"
           description={`Easy problems solved`}
           value={`${easySolved} / ${easyTotal}`}
-          icon={<FaCheckCircle className="w-7 h-7 text-green-400" />}
+          icon={<FaCheckCircle className="w-4 h-4 text-green-400" />}
         />
         <HighlightCard
           title="Medium Solved"
           description={`Medium problems solved`}
           value={`${mediumSolved} / ${mediumTotal}`}
-          icon={<FaCheckCircle className="w-7 h-7 text-yellow-400" />}
+          icon={<FaCheckCircle className="w-4 h-4 text-yellow-400" />}
         />
         <HighlightCard
           title="Hard Solved"
           description={`Hard problems solved`}
           value={`${hardSolved} / ${hardTotal}`}
-          icon={<FaCheckCircle className="w-7 h-7 text-red-400" />}
+          icon={<FaCheckCircle className="w-4 h-4 text-red-400" />}
         />
       </div>
       <Filter onApply={handleApply} />
